@@ -7,6 +7,7 @@ print(f"Your chemistry marks are {m2}")
 print(f"Your physics marks are {m3}")
 tot = m1 + m2 + m3
 avg = tot / 3
+print(f"Your average is {avg}")
 if avg > 90:
     print("S grade")
 elif 80 < avg < 90:
@@ -17,5 +18,3 @@ elif 60 < avg < 70:
     print("D grade")
 else:
     print("Fail")
-
-    
