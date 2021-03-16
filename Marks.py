@@ -1,8 +1,7 @@
-import random
 name = input("Hi. Please enter your name. ")
-m1 = random.randint(20, 100)
-m2 = random.randint(20, 100)
-m3 = random.randint(20, 100)
+m1 = int(input("Enter your maths marks "))
+m2 = int(input("Enter your Chemistry marks "))
+m3 = int(input("Enter you physics marks "))
 print(f"Your maths marks are {m1}")
 print(f"Your chemistry marks are {m2}")
 print(f"Your physics marks are {m3}")
@@ -18,4 +17,5 @@ elif 60 < avg < 70:
     print("D grade")
 else:
     print("Fail")
+
     
