@@ -1,7 +1,11 @@
-name = input("Hi. Please enter your name.")
-m1 = int(input("Please enter your physics marks."))
-m2 = int(input("Please enter your math marks."))
-m3 = int(input("Please enter your chem marks."))
+import random
+name = input("Hi. Please enter your name. ")
+m1 = random.randint(20, 100)
+m2 = random.randint(20, 100)
+m3 = random.randint(20, 100)
+print(f"Your maths marks are {m1}")
+print(f"Your chemistry marks are {m2}")
+print(f"Your physics marks are {m3}")
 tot = m1 + m2 + m3
 avg = tot / 3
 if avg > 90:
